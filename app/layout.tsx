@@ -1,19 +1,17 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
+import Container from '@/components/container'
 import { ReactNode } from 'react'
+import "./globals.css"
 
-export type LayoutProps = {
-    children: ReactNode
-}
-
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: { children: ReactNode }) {
     return (
         <>
-            <Header />
+            <Container><Header /></Container>
             <main>
-                {children}
+                <Container>{children}</Container>
             </main>
-            <Footer />
+            <Container><Footer /></Container>
         </>
     )
 }

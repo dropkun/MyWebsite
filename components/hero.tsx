@@ -1,3 +1,7 @@
+import Container from "./container";
+import Image from "next/image";
+import drop from  "@/Image/drop.png"
+
 interface HeroProps {
   title: string;
   subtitle: string;
@@ -6,10 +10,21 @@ interface HeroProps {
 
 export default function Hero({title, subtitle, imageOn = false}: HeroProps) {
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>{subtitle}</p>
-      {imageOn && <figure> [画像] </figure>}
+    <div className={`lg:flex`}>
+      <div className={`lg:w-1/2 `}>
+        <h1 className={`
+          my-4
+          font-bold text-9xl tracking-tight
+          bg-gradient-to-r from-primary to-secondary
+          bg-clip-text text-transparent
+          `}>{title}</h1>
+        <p>{subtitle}</p>
+      </div>
+      {imageOn &&(
+          <figure className={`w-1/4 w-max-xl -rotate-12`}>
+            <Image src={drop} alt="" layout="responsive" />
+         </figure>
+          )}
     </div>
   )
 }
