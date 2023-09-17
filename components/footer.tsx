@@ -1,3 +1,11 @@
+import Logo from "./logo"
+import Container from "./container"
 export default function Footer() {
-    return <footer>FOOTER</footer>
+    return (
+    <footer>
+        <div className={``}>
+            [social media icons]
+        </div>
+    </footer>
+    )
 }
