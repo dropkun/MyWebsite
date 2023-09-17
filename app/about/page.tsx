@@ -4,21 +4,12 @@ import PostBody from '@/components/PostBody';
 import Contact from '@/components/contact';
 import TwoColumn  from '@/components/TwoColumn';
 import Image from 'next/image';
-import eyecatch from '@/Image/about.jpg';
 
 export default function About() {
   return (
     <Container>
       <Hero title="About" subtitle="About development activities"/>
-      <figure>
-        <Image className={``}
-        src={eyecatch}
-        alt="eyecatch"
-        layout="responsive"
-        sizes="(min-width: 1152px) 100vw, 1152px"
-        priority
-        />
-      </figure>
+
       <TwoColumn>
         <TwoColumn.Main>
       <PostBody>
