@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import drop from '@/Image/drop.png';
 
 export default function Logo() {
     return (

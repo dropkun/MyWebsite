@@ -11,7 +11,7 @@ interface HeroProps {
 export default function Hero({title, subtitle, imageOn = false}: HeroProps) {
   return (
     <div className={`lg:flex`}>
-      <div className={`lg:w-2/3`}>
+      <div className={`lg:w-1/2`}>
         <h1 className={`
           my-4
           font-bold text-7xl tracking-tight
@@ -21,7 +21,7 @@ export default function Hero({title, subtitle, imageOn = false}: HeroProps) {
         <p className="text-black">{subtitle}</p>
       </div>
       {imageOn &&(
-          <figure className={`w-max-xl -rotate-12`}>
+          <figure className={`w-max-xl -rotate-12 w-max-50 my-16 mx-16`}>
             <Image src={drop} alt="" layout="responsive" />
          </figure>
           )}
