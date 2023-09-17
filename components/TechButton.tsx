@@ -19,7 +19,7 @@ export default function TechButton(props : TechButtonProps) {
                 text-center
                 rounded-xl
                 shadow-lg
-                hover:-translate-y-3 duration-200
+                hover:-translate-y-3 duration-300
                 flex flex-col justify-center items-center
             `}
             href={props.url}
