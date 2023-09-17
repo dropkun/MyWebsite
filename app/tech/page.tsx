@@ -8,6 +8,7 @@ import pythonicon from '@/Image/python.png';
 import rusticon from '@/Image/rust.png';
 import typescripticon from '@/Image/typescript.png';
 import reacticon from '@/Image/react.png';
+import tailwindicon from '@/Image/tailwind.png';
 
 export default function Blog() {
   return (
@@ -15,7 +16,7 @@ export default function Blog() {
       <Hero
 
         title='Tech'
-        subtitle='Recent Posts' />
+        subtitle='私が使用している技術です。' />
       <div className={`
       flex flex-wrap
       gap-4
@@ -51,6 +52,10 @@ export default function Blog() {
             name="React"
             url="https://react.dev"
             icon={reacticon} />
+          <TechButton
+            name="tailwindcss"
+            url='https://tailwindcss.com'
+            icon={tailwindicon} />
         </TechContainer>
       </div>
     </Container>

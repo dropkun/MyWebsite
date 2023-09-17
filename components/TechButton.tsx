@@ -12,13 +12,14 @@ export default function TechButton(props : TechButtonProps) {
     return (
         <Link 
             className={`
-                bg-gradient-to-br from-subprimary to-subsecondary
-                p-3 transition duration-1000
+                bg-subprimary
                 text-black
                 w-48 h-48
+                my-3
                 text-center
                 rounded-xl
-                shadow-2xl
+                shadow-lg
+                hover:-translate-y-3 duration-200
                 flex flex-col justify-center items-center
             `}
             href={props.url}

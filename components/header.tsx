@@ -4,7 +4,12 @@ import Container from "./container"
 
 export default function Headers() {
     return(
-    <header>
+    <header className="
+    sticky top-0
+    bg-subprimary
+    shadow-md
+    h-30
+    ">
         <div className={`hover:flex flex justify-between`}>
             <Logo />
             <Nav />

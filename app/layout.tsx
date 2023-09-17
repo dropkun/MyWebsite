@@ -7,11 +7,11 @@ import "./globals.css"
 export default function Layout({ children }: { children: ReactNode }) {
     return (
         <>
-            <Container><Header /></Container>
+            <Header />
             <main>
                 <Container>{children}</Container>
             </main>
-            <Container><Footer /></Container>
+            <Footer />
         </>
     )
 }

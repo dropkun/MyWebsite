@@ -3,8 +3,7 @@ import Container from "./container"
 export default function Footer() {
     return (
     <footer>
-        <div className="hover:flex flex justify-between">
-            <Logo />
+        <div className={``}>
             [social media icons]
         </div>
     </footer>

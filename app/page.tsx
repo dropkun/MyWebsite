@@ -18,8 +18,8 @@ export default async function Home({title, subtitle, imageOn = false}: {title: s
   return (
     <Container>
       <Hero
-        title="CUBE"
-        subtitle="アウトプットしていくサイト"
+        title="Drop"
+        subtitle="自己紹介サイトです"
         imageOn/>
         <p>{data.message}</p>
     </Container>
