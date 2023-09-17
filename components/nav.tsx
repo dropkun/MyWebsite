@@ -16,7 +16,7 @@ export default function Nav() {
                 </li>
                 <li className={`inline-flex mx-2`}>
                     <Link href="/blog">
-                        Blog
+                        Tech
                     </Link>
                 </li>
             </ul>

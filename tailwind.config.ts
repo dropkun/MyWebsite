@@ -17,9 +17,12 @@ const config: Config = {
       colors: {
         primary: '#00ffff',
         secondary: '#00fa9a',
+        subprimary: "#f0ffff",
+        subsecondary: "#f0fff0",
         accent1: '#F7DC6F',
         accent2: '#3498DB',
         white: '#ffffff',
+        black: '#404040',
       },
     },
   },
