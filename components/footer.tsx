@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <footer>
             <p className="
-            flex justify-end
+                flex justify-end
             text-black
             mr-20">
                 My SNS
