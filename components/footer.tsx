@@ -1,8 +1,8 @@
 import Logo from "./logo"
 import Container from "./container"
 import SocialButton from "./SocialButton"
-import githubicon from "@/Image/github.png"
-import xicon from "@/Image/x.png"
+import githubicon from "@/public/github.png"
+import xicon from "@/public/x.png"
 
 export default function Footer() {
     return (
