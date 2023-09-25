@@ -2,7 +2,7 @@ import Container from '@/components/container';
 import Hero from '../components/hero';
 
 async function getHelloWorld() {
-  const res = await fetch('http://localhost:3000/api/hello');
+  const res = await fetch('http://.../api/hello');
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
     throw new Error('Failed to fetch data')
@@ -13,14 +13,14 @@ async function getHelloWorld() {
 
 export default async function Home({
 }) : Promise<JSX.Element>{
-  const data = await getHelloWorld();
+  //const data = await getHelloWorld();
   return (
     <Container>
       <Hero
         title="Drop"
         subtitle="自己紹介サイトです"
         imageOn/>
-        <p>{data.message}</p>
+        {/* <p>{data.message}</p> */}
     </Container>
   );
 }
