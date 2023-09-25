@@ -11,8 +11,8 @@ async function getHelloWorld() {
   return data;
 }
 
-export default async function Home({
-}) : Promise<JSX.Element>{
+export default function Home({
+}) : JSX.Element{
   //const data = await getHelloWorld();
   return (
     <Container>
