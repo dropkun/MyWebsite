@@ -9,7 +9,7 @@ type SocialButtonProps = {
 
 export default function SocialButton(props : SocialButtonProps) {
     return (
-        <Link 
+        <Link
             className={`
                 flex flex-col items-center
                 mx-2

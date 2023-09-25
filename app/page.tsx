@@ -1,7 +1,5 @@
 import Container from '@/components/container';
 import Hero from '../components/hero';
-import { useState, useEffect} from 'react';
-import { get } from 'http';
 
 async function getHelloWorld() {
   const res = await fetch('http://localhost:3000/api/hello');
