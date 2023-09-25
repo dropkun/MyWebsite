@@ -11,7 +11,8 @@ async function getHelloWorld() {
   return data;
 }
 
-export default async function Home({title, subtitle, imageOn = false}: {title: string, subtitle: string, imageOn: boolean}) {
+export default async function Home({
+}) : Promise<JSX.Element>{
   const data = await getHelloWorld();
   return (
     <Container>

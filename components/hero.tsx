@@ -21,7 +21,7 @@ export default function Hero({title, subtitle, imageOn = false}: HeroProps) {
         <p className="text-black">{subtitle}</p>
       </div>
       {imageOn &&(
-          <figure className={`-rotate-12 max-w-xs my-16 mx-16 flex items-center`}>
+          <figure className={`-rotate-12 max-w-xs my-16 mx-16 flex justify-center`}>
             <Image src={drop} alt="" layout="responsive" className=""/>
          </figure>
           )}
