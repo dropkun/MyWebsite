@@ -12,7 +12,7 @@ async function getHelloWorld() {
 }
 
 export default function Home({
-}) : JSX.Element{
+}){
   //const data = await getHelloWorld();
   return (
     <Container>
