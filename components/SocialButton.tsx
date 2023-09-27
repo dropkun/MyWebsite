@@ -9,7 +9,7 @@ type SocialButtonProps = {
 
 export default function SocialButton(props : SocialButtonProps) {
     return (
-        <Button
+        <button
             className={`
                 flex flex-col items-center
                 mx-2
@@ -17,6 +17,6 @@ export default function SocialButton(props : SocialButtonProps) {
             href={props.url}
             target="_blank">
             <Image src={props.icon} alt={""} width={24} height={24}/>
-        </Button>
+        </button>
     )
 }
