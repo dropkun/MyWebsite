@@ -1,6 +1,3 @@
-import Link from 'next/link';
-import Image, { StaticImageData } from 'next/image';
-import { type } from 'os';
 import React, { ReactNode } from 'react';
 
 type TechContainerProps = {

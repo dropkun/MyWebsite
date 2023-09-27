@@ -1,7 +1,4 @@
-"use client"
-import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
-import { type } from 'os';
 import React from 'react';
 type SocialButtonProps = {
     url: string,
