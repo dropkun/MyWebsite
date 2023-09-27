@@ -1,3 +1,4 @@
+"use client";
 import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
 import tailwindicon from "../public/tailwind.png"
@@ -20,7 +21,7 @@ export const TechButton = ({
     ...props
 }: TechButtonProps) => {
     return (
-        <Link
+        <a
             className="
                 bg-subprimary
                 w-48 h-48
@@ -48,6 +49,6 @@ export const TechButton = ({
                     </p>
                 </div>
             </>
-        </Link>
+        </a>
     )
 }
