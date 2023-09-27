@@ -20,7 +20,7 @@ export const TechButton = ({
     ...props
 }: TechButtonProps) => {
     return (
-        <Link
+        <Button
             className="
                 bg-subprimary
                 w-48 h-48
@@ -46,6 +46,6 @@ export const TechButton = ({
                     {name}
                 </p>
             </div>
-        </Link>
+        </Button>
     )
 }
