@@ -1,5 +1,3 @@
-"use client";
-import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
 import tailwindicon from "../public/tailwind.png"
 import star from "../public/Star.png"

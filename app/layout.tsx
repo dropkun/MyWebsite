@@ -6,12 +6,14 @@ import "./globals.css"
 
 export default function Layout({ children }: { children: ReactNode }) {
     return (
-        <>
-            <Header />
-            <main>
-                <Container>{children}</Container>
-            </main>
-            <Footer />
-        </>
+        <html lang="ja">
+            <body>
+                <Header />
+                <main>
+                    <Container>{children}</Container>
+                </main>
+                <Footer />
+            </body>
+        </html>
     )
 }
