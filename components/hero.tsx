@@ -1,4 +1,3 @@
-import Container from './container';
 import Image from 'next/image';
 import drop from '@/public/drop.png';
 
