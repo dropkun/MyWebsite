@@ -17,82 +17,77 @@ import cloudflareicon from '@/public/cloudflare.png';
 export default function Blog() {
   return (
     <Container>
-      <Hero
-
-        title='Tech'
-        subtitle='私が使用している技術です。' />
-      <div className={`
+      <Hero title='Tech' subtitle='私が使用している技術です。' />
+      <div
+        className={`
       flex flex-wrap
       gap-4
-      `}>
-        <TechContainer
-          title='Language'>
-
+      `}
+      >
+        <TechContainer title='Language'>
           <TechButton
-            name="C++"
-            url="https://cpprefjp.github.io"
+            name='C++'
+            url='https://cpprefjp.github.io'
             icon={cppicon}
-            status="In Work"
-            favorite/>
+            status='In Work'
+            favorite
+          />
           <TechButton
-            name="C#"
-            url="https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/"
+            name='C#'
+            url='https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/'
             icon={csharpicon}
-            status="In Work" />
+            status='In Work'
+          />
           <TechButton
-            name="Python"
-            url="https://www.python.org"
+            name='Python'
+            url='https://www.python.org'
             icon={pythonicon}
-            status="In Work" />
+            status='In Work'
+          />
           <TechButton
-            name="Typescript"
-            url="https://www.typescriptlang.org"
+            name='Typescript'
+            url='https://www.typescriptlang.org'
             icon={typescripticon}
-            status="Learning" />
+            status='Learning'
+          />
           <TechButton
-            name="Rust"
-            url="https://www.rust-lang.org"
+            name='Rust'
+            url='https://www.rust-lang.org'
             icon={rusticon}
-            status="Learning"
-            favorite/>
-
+            status='Learning'
+            favorite
+          />
         </TechContainer>
-        <TechContainer
-          title='Frontend'>
+        <TechContainer title='Frontend'>
+          <TechButton name='React' url='https://react.dev' icon={reacticon} status='Learning' />
           <TechButton
-            name="React"
-            url="https://react.dev"
-            icon={reacticon}
-            status="Learning" />
-          <TechButton
-            name="tailwindcss"
+            name='tailwindcss'
             url='https://tailwindcss.com'
             icon={tailwindicon}
-            status="Learning" />
+            status='Learning'
+          />
+          <TechButton name='Next.js' url='https://nextjs.org' icon={nextjsicon} status='Learning' />
           <TechButton
-            name="Next.js"
-            url='https://nextjs.org'
-            icon={nextjsicon}
-            status="Learning" />
-          <TechButton
-            name="Strorybook"
+            name='Strorybook'
             url='https://storybook.js.org'
             icon={storybookicon}
-            status="Learning" />
+            status='Learning'
+          />
         </TechContainer>
 
-        <TechContainer
-          title='Infrastructure'>
+        <TechContainer title='Infrastructure'>
           <TechButton
-            name="GCP"
-            url="https://console.cloud.google.com/welcome"
+            name='GCP'
+            url='https://console.cloud.google.com/welcome'
             icon={gcpicon}
-            status="Learning" />
+            status='Learning'
+          />
           <TechButton
-            name="Cloudflare"
+            name='Cloudflare'
             url='https://www.cloudflare.com'
             icon={cloudflareicon}
-            status="Want to learn" />
+            status='Want to learn'
+          />
         </TechContainer>
       </div>
     </Container>

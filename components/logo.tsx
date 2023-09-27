@@ -2,9 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Logo() {
-    return (
-        <Link
-            className={`
+  return (
+    <Link
+      className={`
             bg-primary
             p-3 font-bold transition duration-300
             w-28
@@ -13,8 +13,9 @@ export default function Logo() {
             rounded-xl
             flex justify-center items-center
         `}
-            href="/">
-                Drop
-        </Link>
-    )
+      href='/'
+    >
+      Drop
+    </Link>
+  );
 }
