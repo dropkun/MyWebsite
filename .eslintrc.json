@@ -1,6 +1,15 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "plugin:storybook/recommended"
-  ]
+    "plugin:storybook/recommended",
+    "plugin:import/recommended",
+    "plugin:import/warnings",
+    "prettier"
+  ],
+  "env": { "browser": true },
+  "rules": {
+    "semi": ["error", "always"]
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@next/eslint-plugin-next"]
 }
