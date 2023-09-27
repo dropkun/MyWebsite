@@ -33,19 +33,21 @@ export const TechButton = ({
             "
             href={url}
             target="_blank">
-            <div className="flex flex-row m-4">
-                {favorite && (
-                    <Image className="flex justify-start"
-                        src={star} alt="favorite" width={24} />
-                )}
-                <p className="flex justify-end">{status}</p>
-            </div>
-            <div className="flex flex-col justify-center items-center">
-                <Image src={icon} alt={name} height={80} />
-                <p className="m-4 text-center">
-                    {name}
-                </p>
-            </div>
+            <>
+                <div className="flex flex-row m-4">
+                    {favorite && (
+                        <Image className="flex justify-start"
+                            src={star} alt="favorite" width={24} />
+                    )}
+                    <p className="flex justify-end">{status}</p>
+                </div>
+                <div className="flex flex-col justify-center items-center">
+                    <Image src={icon} alt={name} height={80} />
+                    <p className="m-4 text-center">
+                        {name}
+                    </p>
+                </div>
+            </>
         </Link>
     )
 }

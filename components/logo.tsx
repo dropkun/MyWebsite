@@ -14,10 +14,7 @@ export default function Logo() {
             flex justify-center items-center
         `}
             href="/">
-            {/* <Image src={drop} alt="drop" layout="fixed" /> */}
-            <p >
                 Drop
-            </p>
         </Link>
     )
 }

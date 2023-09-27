@@ -22,7 +22,7 @@ export default function Hero({title, subtitle, imageOn = false}: HeroProps) {
       </div>
       {imageOn &&(
           <figure className={`-rotate-12 max-w-xs my-16 mx-16 flex justify-center`}>
-            <Image src={drop} alt="" layout="responsive" className=""/>
+            <Image src={drop} alt="" className=""/>
          </figure>
           )}
     </div>
