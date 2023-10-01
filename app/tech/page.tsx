@@ -1,5 +1,6 @@
 import Container from '@/components/container';
 import Hero from '../../components/hero';
+export const runtime = 'edge';
 import { TechButton } from '@/stories/TechButton';
 import TechContainer from '@/components/TechContainer';
 import cppicon from '@/public/cpp.png';
